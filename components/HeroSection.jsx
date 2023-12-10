@@ -38,7 +38,7 @@ const HeroSection = () => {
                     .typeString`<span style="color:#9E7BFF">Back-End Developer</span>`
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString`<span style="color:#893BFF">Data Analyst</span>`
+                    .typeString`<span style="color:#893BFF">APU Student</span>`
                     .pauseFor(1500)
                     .deleteAll()
                     .start();
