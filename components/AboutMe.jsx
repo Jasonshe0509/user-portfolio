@@ -1,6 +1,8 @@
 import React from "react";
 import { useTransition, useState } from "react";
 import TabButton from "./TabButton";
+import Image from 'next/image';
+
 
 //1d
 const TAB_DATA = [
@@ -57,7 +59,7 @@ const AboutMe = () => {
         <section className="text-white grid" id="aboutMe">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
                 <div>
-                    <img src="/AboutMe.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
+                    <Image src="/AboutMe.png" alt="About Me" width={450} height={450} style={{ borderRadius: "25px" }}/>
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
