@@ -29,7 +29,7 @@ const projectData = [
         id: 4,
         title: "Megamask",
         description: "This is a project for ETH Online.",
-        image: "/projects/megamask.png",
+        image: "/projects/Megamask.png",
         gitUrl: "https://github.com/megamask"
     }, {
         id: 5,
